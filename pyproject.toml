@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "project007"
+version = "0.1.0"
+description = ""
+authors = ["Sagnik Mandal <acriticalcynic@outlook.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlmodel = "^0.0.16"
+
+[tool.poetry.group.dev.dependencies]
+tabula-py = "^2.9.0"
+ruff = "^0.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
