@@ -719,13 +719,13 @@ full = ["httpx (>=0.22.0)", "itsdangerous", "jinja2", "python-multipart (>=0.0.7
 
 [[package]]
 name = "tabula-py"
-version = "2.9.0"
+version = "2.9.3"
 description = "Simple wrapper for tabula-java, read tables from PDF into DataFrame"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "tabula-py-2.9.0.tar.gz", hash = "sha256:a2cc01970e799bf66206d8b30deb22bbc325d6847460c3197d5bc2063cb34713"},
-    {file = "tabula_py-2.9.0-py3-none-any.whl", hash = "sha256:7c29b1331e2ea79a4e3e87861a0c01de6f7c249d841e61074ac67cfd4b37e656"},
+    {file = "tabula_py-2.9.3-py3-none-any.whl", hash = "sha256:e2c537c021ca0dc385b094e5e113f1bd5041d967bcc1532c4c3bd64755129ffe"},
+    {file = "tabula_py-2.9.3.tar.gz", hash = "sha256:2e1a458d97f4e4422d82e9ed07c7180711efa623b158d2b7b53303e864e74834"},
 ]
 
 [package.dependencies]
